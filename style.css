@@ -1,0 +1,272 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+h1 {
+    color: #8b4513;
+    font-size: 60px;
+    margin-top: 60px;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 40px;
+    background-color:#4CAF50;
+    padding: 20px 0;
+    box-shadow: 0px 4px 8px rgba(0,0,0,0.2);
+}
+
+.menu a {
+    margin: 0 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.menuboton {
+    background-color: #d2b48c;
+    color: #fff;
+    padding: 40px 30px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-size: 24px;
+    width: 200px;
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.2);
+    transition: background-color 0.3s ease;
+}
+
+.menuboton:hover {
+    background-color: #a0522d;
+}
+
+.categoria {
+    margin-top: 40px;
+    font-size: 28px;
+    color: #8b4513;
+}
+
+.producto {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+form {
+    margin-top: 50px;
+}
+
+input, select {
+    padding: 10px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+.btn {
+    background-color: #a0522d;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #8b4513;
+}
+
+.nuevo-producto-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 40px;
+    margin: 50px auto;
+    max-width: 1200px;   
+}
+
+.categoria-columna {
+    background-color: #f0e0d6;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 8px rgba(0,0,0,0.1);
+    flex: 1;
+    min-width: 200px;
+}
+
+.categoria-titulo {
+    font-size: 24px;
+    color: #8b4513;
+    margin-bottom: 15px;
+    border-bottom: 2px solid #d2b48c;
+    padding-bottom: 5px;
+}
+
+.nuevo-producto {
+    background-color: #d5f5d5;
+    padding: 30px;
+    margin: 50px auto;
+    border-radius: 15px;
+    max-width: 600px;
+}
+
+.nuevo-producto h2 {
+    margin-bottom: 20px;
+    color: #4b6b4b;
+}
+
+.categorias-grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 30px;
+}
+
+.categoria-box {
+    background-color: #fbe9e7;
+    border-radius: 15px;
+    padding: 15px;
+    width: 180px;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.categoria-box h3 {
+    margin-top: 0;
+    border-bottom: 1px solid #d7ccc8;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
+.categoria-box ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.categoria-box li {
+    margin: 5px 0;
+    font-size: 0.95em;
+}
+
+.boton-salir {
+    background-color: #d2b48c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: auto;
+    margin-right: 20px;
+    align-self: center;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.2);
+}
+
+.boton-salir:hover {
+    background-color: #a0522d;
+}
+
+.login-body{
+    background-image: url('despensa.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(0.9);
+}
+
+.login-container {
+    background-color: rgba(245,222,179,0.9);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    width: 320px;
+    text-align: center;
+}
+
+.login-container h2 {
+    margin-bottom: 20px;
+    color: #4b6b4b;
+    font-size: 24px;
+}
+
+.login-container input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.login-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.login-container .btn:hover {
+    background-color: #388E3C;
+}
+
+.register-body {
+    background-color: #a0522d; 
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-container {
+    background-color: rgb(238, 159, 99);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.3);
+    width: 320px;
+    text-align: center;
+}
+
+.register-container h2 {
+    margin-bottom: 20px;
+    color: #4a3b2f;
+    font-size: 24px;
+}
+
+.register-container input {
+    width: 90%;
+    padding: 12px;
+    margin: 10px 0;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.register-container button {
+    background-color: #3e8e41; /* Verde más oscuro */
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3s;
+}
+
+.register-container button:hover {
+    background-color: #326e34;
+}
