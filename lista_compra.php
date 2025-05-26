@@ -28,6 +28,7 @@ $resultado = $conn->query("select nombre_producto, fecha_uso from lista_compra o
         <a href="index.php">Volver</a>
         <a href="producto.php">Productos</a>
         <a href="stock.php">Stock</a>
+        <a href="historial.php">Historial</a>
         <a href="logout.php" class="boton-salir">Salir</a>
     </div>
 

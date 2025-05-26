@@ -22,6 +22,7 @@ header("Pragma: no-cache");
         <a href="producto.php" class="menuboton">Productos</a>
         <a href="stock.php" class="menuboton">Stock</a>
         <a href="lista_compra.php" class="menuboton">Lista Compra</a>
+        <a href="historial.php" class="menuboton">Historial</a>
         <a href="logout.php" class="boton-salir">Salir</a>
     </div>
 </body>

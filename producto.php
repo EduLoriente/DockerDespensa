@@ -30,6 +30,7 @@ $result =$conn->query("select * from producto order by categoria, nombre");
         <a href="index.php">Volver</a>
         <a href="stock.php">Stock</a>
         <a href="lista_compra.php">Lista Compra</a>
+        <a href="historial.php">Historial</a>
         <a href="logout.php" class="boton-salir">Salir</a>
     </div>
 

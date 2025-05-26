@@ -45,6 +45,7 @@ $categorias = $conn->query("SELECT DISTINCT categoria FROM producto ORDER BY cat
     <a href="index.php">Volver</a>
     <a href="producto.php">Productos</a>
     <a href="lista_compra.php">Lista Compra</a>
+    <a href="historial.php">Historial</a>
     <a href="logout.php" class="boton-salir">Salir</a>
 </div>
 
