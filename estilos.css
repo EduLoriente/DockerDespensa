@@ -68,3 +68,24 @@ footer {
   /*background-color: rgba(255, 255, 255, 0.8);*/
   color: #333;
 }
+
+.registrado {
+  margin-top: 2em;
+  font-weight: bold;
+  text-align: center;
+}
+
+.boton-entrar {
+  display: inline-block;
+  margin-top: 0.5em;
+  padding: 0.6em 1.2em;
+  background-color: #197112;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.boton-entrar:hover {
+  background-color: #37c53a;
+}
